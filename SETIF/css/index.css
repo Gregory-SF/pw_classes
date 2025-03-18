@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #1e90ff;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+main{
+    max-width: 990px;
+    background-color: #222222;
+    border-radius: 5%;
+    box-shadow: 0 0 5px #222;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.text{
+    padding: 1px;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+
+.card{
+    background-color: #414040;
+    width: 250px;
+    box-shadow: 0 0 10px #414040;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.arduino{
+    height: 400px;
+    width: 550px;
+}
+
+button{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .card{
+        width: 95%;
+    }
+}
