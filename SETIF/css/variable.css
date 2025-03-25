@@ -1,0 +1,18 @@
+:root{
+    /* Background */
+    --bg-color-body: #111;
+    --bg-color-container: #222;
+
+    /* Text color */
+    --text-color: white;
+
+}
+
+[data-theme="light"] {
+    /* Background */
+    --bg-color-body: #9b9a9a;
+    --bg-color-container: #ebeaea;
+
+    /* Text color */
+    --text-color: black;
+}

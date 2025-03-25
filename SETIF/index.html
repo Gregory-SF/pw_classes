@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css"/>
+    <!-- <link rel="stylesheet" href="css/varaible.css"/> -->
 </head>
-<body>
+<body data-theme="dark">
     <header class = "header">
         <h1>SETIF 2025 - A Resolução da Tecnologia</h1>
     </header>
@@ -21,9 +22,11 @@
                 <p><strong>Local:</strong> IFPR Campus Paranavaí</p>
                 <button>Inscreva-se</button>
                 <button>Saiba Mais</button>
+                <button id="btnAlterarTema" onclick="alterarTema()">Light</button>
+                <button onclick="buscarInscritos()">Pegar Inscritos</button>
             </div>
             
-            <div class = "cards">
+            <div class="cards">
                 <div class="card">
                     <img src="https://media.istockphoto.com/id/1389719812/pt/foto/thoughtful-bored-millennial-black-mixed-race-guy-lost-in-thoughts.jpg?s=612x612&w=0&k=20&c=fRwlowDOIUceQPnQqYJO-rugJACzHgVlKbX3lHYBVwk="/>
                     <p><strong>Palestras Inspiradoras</strong></p>
@@ -42,6 +45,12 @@
                 </div>
             </div>
         </div>
+        <div id="inscritos">
+
+        </div>
     </main>
+
+    <script src="js/index.js"></script>
+
 </body>
 </html>
