@@ -21,7 +21,7 @@
                 <p><strong>Data:</strong> 10 de outubro de 2025</p>
                 <p><strong>Local:</strong> IFPR Campus Paranavaí</p>
                 <button>Inscreva-se</button>
-                <button>Saiba Mais</button>
+                <button id="saiba-mais">Saiba Mais</button>
                 <button id="btnAlterarTema" onclick="alterarTema()">Light</button>
                 <button onclick="buscarInscritos()">Pegar Inscritos</button>
             </div>
@@ -49,6 +49,15 @@
 
         </div>
     </main>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="fechar" id="fechar-modal">&times;</span>
+            <h1>SETIF</h1>
+            <p>A SETIF 2025 será realizada no dia 18/11/2022</p>
+        </div>
+    </div>
+
 
     <script src="js/index.js"></script>
 
